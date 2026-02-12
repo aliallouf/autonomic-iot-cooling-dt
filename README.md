@@ -26,6 +26,7 @@ The Cognitive Engine evaluates the formal safety rule:
 ```
 
 If robustness < 0:
+
 - 🚨 A safety violation is detected  
 - 🔄 The Digital Twin intervenes  
 - 📝 The event is logged for forensic analysis  
@@ -55,10 +56,14 @@ If robustness < 0:
 
 ## 📸 System Demo
 
-```markdown
-[Wokwi Simulation](images/wokwi.png)
-[Dashboard Monitoring](images/dashboard.png)
-[STL Robustness Output](images/terminal.png)
+### 🔌 Wokwi Simulation
+![Wokwi Simulation](images/wokwi.png)
+
+### 📊 Dashboard Monitoring
+![Dashboard Monitoring](images/dashboard.png)
+
+### 🧮 STL Robustness Output
+![STL Robustness Output](images/terminal.png)
 
 ---
 
