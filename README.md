@@ -55,12 +55,10 @@ If robustness < 0:
 
 ## 📸 System Demo
 
-Add screenshots in an `images/` folder and reference them:
-
 ```markdown
-![Wokwi Simulation](images/wokwi.png)
-![Dashboard Monitoring](images/dashboard.png)
-![STL Robustness Output](images/terminal.png)
+[Wokwi Simulation](images/wokwi.png)
+[Dashboard Monitoring](images/dashboard.png)
+[STL Robustness Output](images/terminal.png)
 ```
 
 ---
