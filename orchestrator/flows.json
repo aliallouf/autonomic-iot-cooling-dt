@@ -1,0 +1,68 @@
+[
+    {
+        "id": "19ae22aadf7610d7",
+        "type": "ui_chart",
+        "z": "ec46fb8e8199a870",
+        "name": "Safety Margin",
+        "group": "051d88573494d868",
+        "order": 2,
+        "width": "",
+        "height": "",
+        "label": "Robustness",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "051d88573494d868",
+        "type": "ui_group",
+        "name": "System Health & Control",
+        "tab": "ui_tab_main",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "ui_tab_main",
+        "type": "ui_tab",
+        "name": "Crop Health Dashboard",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "5163d0cea7d52c73",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
